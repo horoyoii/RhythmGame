@@ -1,5 +1,7 @@
-﻿  framework.c
-c:\users\프랜즈\desktop\작성중인 파일 clang\game\리듬게임\framework.c(9): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
-c:\users\프랜즈\desktop\작성중인 파일 clang\game\리듬게임\framework.c(245): warning C4013: '_kbhit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\users\프랜즈\desktop\작성중인 파일 clang\game\리듬게임\framework.c(246): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Project1.vcxproj -> C:\Users\프랜즈\Desktop\작성중인 파일 clang\game\리듬게임\x64\Debug\Project1.exe
+﻿framework.obj : error LNK2019: FMOD_System_Create 외부 기호(참조 위치: "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z) 함수)에서 확인하지 못했습니다.
+framework.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) 외부 기호(참조 위치: "void __cdecl SoundSystem(void)" (?SoundSystem@@YAXXZ) 함수)에서 확인하지 못했습니다.
+framework.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::createSound(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) 외부 기호(참조 위치: "void __cdecl SoundSystem(void)" (?SoundSystem@@YAXXZ) 함수)에서 확인하지 못했습니다.
+framework.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) 외부 기호(참조 위치: "void __cdecl Play(int)" (?Play@@YAXH@Z) 함수)에서 확인하지 못했습니다.
+framework.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::stop(void)" (?stop@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+framework.obj : error LNK2019: "public: enum FMOD_RESULT __cdecl FMOD::Channel::setPaused(bool)" (?setPaused@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@_N@Z) 외부 기호(참조 위치: main 함수)에서 확인하지 못했습니다.
+C:\Users\Jin\Documents\RhythmGame\x64\Debug\Project1.exe : fatal error LNK1120: 6개의 확인할 수 없는 외부 참조입니다.
